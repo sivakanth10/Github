@@ -1,0 +1,20 @@
+
+Fork:
+
+in the GitHub context, doesn't extend Git.
+It only allows clone on the server side.
+
+When you are cloning a GitHub repo on your local workstation, you cannot contribute back to the upstream repo unless you are explicitly declared as "contributor".
+So that clone (to your local workstation) isn't a "fork". It is just a clone.
+
+The other solution to contribute to that GitHub project is to:
+
+clone that GitHub repo on your GitHub account (that is the "fork" part, a clone on the server side)
+contribute commits to that GitHub repo (it is in your own GitHub account, so you have every right to push to it)
+signal any interesting contribution back to the original GitHub repo (that is the "pull request" part)
+Check also "Collaborative GitHub Workflow".
+
+If you want to keep a link with the original repo (also called upstream), you need to add a remote referring that original repo.
+See "What is the difference between origin and upstream in github"
+
+fork and upstream
