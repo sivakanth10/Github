@@ -7,6 +7,8 @@ It only allows clone on the server side.
 When you are cloning a GitHub repo on your local workstation, you cannot contribute back to the upstream repo unless you are explicitly declared as "contributor".
 So that clone (to your local workstation) isn't a "fork". It is just a clone.
 
+you are cloning the upstream repo as your own repo on the GitHub server side. Then you can locally clone that new "fork" repo on your computer and freely push back on it, since you are the creator and owner of that fork.
+
 The other solution to contribute to that GitHub project is to:
 
 clone that GitHub repo on your GitHub account (that is the "fork" part, a clone on the server side)
